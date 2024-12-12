@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <main>
+      <form class="form">
+        <label for="numbers">How many numbers are there?</label>
+        <div>
+          <input class="numbersInput" type="number" name="numbers" placeholder="Numbers">
+          <button class="button" type="submit">Combine</button>
+        </div>
+      </form>
+    
+      <div class="info">
+        <div id="combination"></div>
+        <div id="combinationsLeft"></div>
+        <div id="failedCombinations"></div>
+      </div>
+    </main>
+  </div>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
